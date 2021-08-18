@@ -700,9 +700,7 @@ header .go-back i {
 	margin-bottom: 40px;
 }
 
-.dream .title,
-.music-player .title,
-.video-player .title {
+.dream .title {
 	margin-bottom: 20px;
 	font-size: 2rem;
 	font-weight: 700;
@@ -711,17 +709,6 @@ header .go-back i {
 .dream .text {
 	opacity: .6;
 	font-size: 1.1rem;
-}
-
-.music-player,
-.video-player {
-	margin-top: 10px;
-	margin-bottom: 50px;
-}
-
-.music,
-.dplayer-video {
-	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 10px 20px -12px rgba(0, 0, 0, .5) !important;
 }
 
 #recommend-sections {
@@ -1188,13 +1175,6 @@ article .article-tags .chip {
 #articleContent img {
 	max-width: 100%;
 	height: auto;
-	cursor: pointer;
-}
-
-#articleContent video {
-	display: block;
-	margin: 30px auto;
-	box-shadow: 0 5px 35px 0 rgba(0, 0, 0, .2), 0 10px 35px -11px rgba(0, 0, 0, .6);
 	cursor: pointer;
 }
 
